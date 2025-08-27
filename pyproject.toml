@@ -1,0 +1,16 @@
+[project]
+name = "mcp-test"
+version = "0.1.0"
+description = "MCP server for Brave Search with result rating and storage"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.58.2",
+    "httpx>=0.28.1",
+    "mcp-server-git>=2025.7.1",
+    "mcp[cli]>=1.12.1",
+    "python-dotenv>=1.1.1",
+    "fastmcp>=0.1.0",
+    "pydantic>=2.0.0",
+    "aiofiles>=23.0.0",
+]
